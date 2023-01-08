@@ -12,6 +12,20 @@ body{
 .conteneur
 {
     display: flex;
+    padding-top : 15px;
+    padding-bottom: 15px;
+    width : 97%;
+
+    border : 1px solid red;
+}
+
+.partie
+{
+    width : 82%;
+    margin-top: 20px;
+    padding-bottom: 30px;
+
+    border : 1px solid black;
 }
 
 /*
@@ -55,14 +69,14 @@ header
 
 #sommaire
 {
-    width : 82%;
+
     display: flex;
     flex-direction: column;
 
-    border : 1px solid black;
+
 }
 
-#titreSommaire
+.titrePartie, .titreQuestion
 {
     font-size: 180%;
     margin-left: 20px;
@@ -72,13 +86,9 @@ header
 {
     justify-content: space-around;
     flex-direction: row;
-    padding-top : 15px;
-    padding-bottom: 15px;
-    width : 97%;
-    align-self : center;
-    margin-bottom: 30px;
 
-    border : 1px solid red;
+    align-self : center;
+
 }
 
 .blocLienQuestion
@@ -133,4 +143,43 @@ td{
     width : 100%;
     margin : 0px;
 }
+/*
+========================================
+                Question 1  
+========================================
 */
+
+#question1
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.titreQuestion
+{
+    text-align: center;
+    margin-left : 0px;
+}
+
+#intitule1
+{
+    align-self : center;
+    padding-bottom: 5px;
+    width: 55%;
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.enonce
+{
+    text-align: center;
+    width : 98%;
+}
+
+#reponse1
+{
+    margin-top: 15px;
+    align-self: center;
+
+}
