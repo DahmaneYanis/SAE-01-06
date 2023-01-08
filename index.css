@@ -149,6 +149,7 @@ td{
 ========================================
 */
 
+/*
 #question1
 {
     display: flex;
@@ -179,7 +180,79 @@ td{
 
 #reponse1
 {
+    display: block;
     margin-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
     align-self: center;
 
 }
+*/
+
+.question
+{
+    width: 82%;
+    margin-top : 20px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+
+    border : 1px solid pink;
+}
+
+.introQuestion
+{
+    display: flex;
+    flex-direction: column;
+
+    border : 1px solid blue;
+}
+
+.titreQuestion
+{
+    align-self: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.enonce
+{
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    align-self: center;
+
+    border: 1px solid aqua;
+}
+
+#enonce1
+{
+        width: 50%;
+}
+
+.reponseQuestion
+{
+    margin-top : 20px;
+    width : 93%;
+    align-self: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height : 21px;
+    font-size: 105%;
+    text-align: justify;
+
+    border: 1px solid brown;
+}
+
+.point
+{
+    display: inline-block;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+li
+{
+    margin-left : 15px;
+}
+
