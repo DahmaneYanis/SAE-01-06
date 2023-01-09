@@ -270,3 +270,9 @@ li
 {
     width : 60%;
 }
+
+img{
+    width : 45%;
+    margin-top : 30px;
+    align-self: center;
+}
