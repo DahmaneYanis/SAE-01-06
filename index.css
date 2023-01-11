@@ -283,3 +283,26 @@ img{
     margin-top : 30px;
     align-self: center;
 }
+
+/*
+========================================
+                Footer  
+========================================
+*/
+
+footer
+{
+    width: 82%;
+    margin-top : 20px;
+    padding-bottom: 5px;
+    color: #D4D4D5;
+    font-size: 90%;
+    
+
+    border: 1px solid #D4D4D5;
+}
+
+.end
+{
+    text-align: center;
+}
