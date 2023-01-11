@@ -228,9 +228,15 @@ td{
     border: 2px solid #2c2f33;
 }
 
-#enonce1
+#enonce1-1
 {
-        width: 50%;
+    width: 50%;
+}
+
+#enonce1-2
+{
+    width: 50%;
+    margin-top: 15px;
 }
 
 .reponseQuestion
